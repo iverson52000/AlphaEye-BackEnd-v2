@@ -5,3 +5,5 @@
 * Developed the Application Server based back-end with Node.js, Express.js, PostgreSQL and deployed the app on Heroku
 * Automated back-end development with docker and used jwt and Redis for user authentication and session management
 * Framework: JavaScript (ES6), React, Node.js, Express.js, PostgreSQL, Redis, Docker 
+
+Albert Hsu 2020
