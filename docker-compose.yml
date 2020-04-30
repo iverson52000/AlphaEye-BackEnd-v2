@@ -3,7 +3,7 @@ version: '3.6'
 services:
 
 # Backend
-  AlphaEye-BackEnd:
+  alphaeye-backend:
     # env_file:
     #   - ./.private/api-keys.env "Another way to insert env variables"
     container_name: backend
@@ -13,11 +13,11 @@ services:
     command: npm start
     working_dir: /usr/src/AlphaEye-BackEnd
     ports:
-      - "3000:3000"
+      - "3001:3001"
     environment:
       POSTGRES_URI: postgres://admin:password@postgres:5432/AlphaEye-BackEnd
       REDIS_URI: redis://redis:6379
-      
+
   # PostgreSQL
   postgres:
     container_name: postgres
