@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
 
-# Backend
+# Backend API
   alphaeye-backend:
     # env_file:
     #   - ./.private/api-keys.env "Another way to insert env variables"
