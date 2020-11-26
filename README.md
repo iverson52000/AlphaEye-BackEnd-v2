@@ -1,4 +1,4 @@
-# AlphaEye-BackEnd
+# AlphaEye BackEnd v2
 
 * Implemented an interactive and responsive web application with functions of user sign-in, registration, entries, and connected to clarifai API for AI face image detection functionality
 * Developed the Ajax based front-end with npm, webpack, React in JavaScript
